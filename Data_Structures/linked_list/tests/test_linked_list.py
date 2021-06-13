@@ -7,6 +7,7 @@ def test_Node():
     a = Node(5)
     assert a.value is 5
     assert a.next is None
+
 def test_append_1():
     ll = LinkedList()
     ll.append(1)
@@ -14,6 +15,8 @@ def test_append_1():
     ll.append(2)
     assert ll.head.next.value is 2
     assert ll.head.next.next is None
+ 
+
 def test_insert():
     ll = LinkedList()
     ll.insert(5)
@@ -28,23 +31,25 @@ def test_insert():
     ll.insert(17)
     assert ll.head.value is 17
     assert ll.head.next.value is 's'
+
 def test_include():
     ll = LinkedList()
-    assert ll.include(4) is False
-    ll.append(5)
-    assert ll.include(1) is False
-    assert ll.include(5) is True
-    ll.append(4)
-    ll.insert(3)
-    assert ll.include(1) is False
-    assert ll.include(5) is True
-    assert ll.include(4) is True
-    assert ll.include(3) is True
-    ll.insert(2)
-    ll.append(1)
-    assert ll.include(5) is True
-    assert ll.include(1) is True
+    assert ll.include(0) is False
+    ll.append(2)
     assert ll.include(6) is False
+    assert ll.include(2) is True
+    ll.append(7)
+    ll.insert(8)
+    assert ll.include(11) is False
+    assert ll.include(5) is False
+    assert ll.include(7) is True
+    assert ll.include(8) is True
+    ll.insert(88)
+    ll.append(3)
+    assert ll.include(88) is True
+    assert ll.include(3) is True
+    assert ll.include(6) is False
+
 def test_str():
     ll=LinkedList()
     assert str(ll) is 'None'
@@ -56,3 +61,23 @@ def test_str():
     ll.insert(3)
     ll.append(2)
     assert str(ll) == '{ 3 } -> { 5 } -> { 5 } -> { 4 } -> { 2 } -> None'
+
+
+def test_insertBefore():
+    ll=LinkedList()
+    ll.append(1)
+    ll.append(2)
+    ll.append(3)
+    ll.insertBefore(2,20)
+    assert ll.head.next.value==20
+
+
+
+
+def test_insertAfter():
+    ll=LinkedList()
+    ll.append(1)
+    ll.append(2)
+    ll.append(3)
+    ll.insertAfter(1,30)
+    assert ll.head.next.value==30
