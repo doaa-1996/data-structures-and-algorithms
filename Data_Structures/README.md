@@ -10,4 +10,9 @@
 - [x] Define a method called includes which takes any value as an argument and returns a boolean result depending on whether that value exists as a Node’s value somewhere within the list.
 - [x] Define a method called toString (or __str__ in Python) which takes in no arguments and returns a string representing all the values in the Linked List, formatted as:
 "{ a } -> { b } -> { c } -> NULL"
+- [x] Add a method called .insertBefore(value, newVal) to the list class which add a new node with the given newValue immediately before the first value node.
+- [x] Add a method called .insertAfter(value, newVal) to the link class which add a new node with the given newValue immediately after the first value node
+
 - [x] Write tests to ensure your code is doing well.
+
+
