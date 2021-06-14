@@ -8,4 +8,7 @@
 | code challenge 2 | [Array shift](array_shift/README.md)                          |
 | code challenge 3 | [Binary Search](array_binary_search/README.md)                |
 | code challenge 5 | [Linked lists 1](Data_Structures/linked_list/README.md)       |
-| code challenge 6 | [Linked lists 2](Data_Structures/linked_list/README.md)       |
+| code challenge 6 | [Linked lists 2](Data_Structures/README.md)                   |
+
+
+/home/std1/code401/data-structures-and-algorithms/Data_Structures/README.md
