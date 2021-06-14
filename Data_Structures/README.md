@@ -1,18 +1,39 @@
 # Data Structures
 
-- [x] make a public repository called data-structures-and-algorithms.
-- [x] Create a new branch in your repo called linked-list.
-- [x] Your top-level readme should contain a “Table of Contents” navigation to all of  challenges .
-- [x] Place this implementation in your Data-Structures folder within  repository.
-- [x] a folder named linked_list which contains a file called linked_list.py.
-- [x] Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
-- [x] Define a method called insert which takes any value as an argument and adds a new node with that value to the head of the list with an O(1) Time performance.
-- [x] Define a method called includes which takes any value as an argument and returns a boolean result depending on whether that value exists as a Node’s value somewhere within the list.
-- [x] Define a method called toString (or __str__ in Python) which takes in no arguments and returns a string representing all the values in the Linked List, formatted as:
-"{ a } -> { b } -> { c } -> NULL"
-- [x] Add a method called .insertBefore(value, newVal) to the list class which add a new node with the given newValue immediately before the first value node.
-- [x] Add a method called .insertAfter(value, newVal) to the link class which add a new node with the given newValue immediately after the first value node
+# Challenge Summary
 
-- [x] Write tests to ensure your code is doing well.
+Write methods for the Linked List class:
 
+.append(value) which adds a new node with the given value to the end of the list
+.insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+.insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
 
+## Whiteboard Process
+![ll](code%20challenge6.png)
+
+## Approach & Efficiency
+
+append:iterate over the ll then add the value.
+insertBefore: create new node,find target node to insert,search nodes,add the new node
+insertAfter:create a new node ,iterate over the ll to find the target and insert the node.
+
+append: O(n)
+insertBefore: O(n)
+insertAfter:O(n)
+
+## Solution
+
+append:iterate over the ll then add the value.
+insertBefore: create new node,find target node to insert,search nodes,add the new node
+insertAfter:create a new node ,iterate over the ll to find the target and insert the node.
+
+```
+ll=1->2->3->4
+input => ll.append(2)
+output => 1->2->3->4->2->NULL
+
+input => ll.insertBefore(3,7)
+output =>1->2->7->3->4->NULL
+input => ll.insertAfter(3,7)
+output =>1->2->3->7->4->NULL
+```
