@@ -9,5 +9,6 @@
 | code challenge 3 | [Binary Search](array_binary_search/README.md)                |
 | code challenge 5 | [Linked lists 1](Data_Structures/linked_list/README.md)       |
 | code challenge 6 | [Linked lists 2](Data_Structures/README.md)                   |
+| code challenge 7 | [Linked lists 3](Data_Structures/readme.md)                   |
 
 
