@@ -136,3 +136,19 @@ def test_insertAfter():
     ll.insertAfter(9, 3)
     assert ll.head.next.next.next.value == 3
 
+
+def test_kthFromEnd1():
+    ll = LinkedList()
+    ll.append(2)
+    ll.append(5)
+    ll.append(9)
+    assert ll.kthFromEnd(1)==9
+
+
+def test_kthFromEnd1():
+    ll = LinkedList()
+    ll.append(1)
+    ll.append(6)
+    ll.append(20)
+    assert ll.kthFromEnd(3)==1
+    

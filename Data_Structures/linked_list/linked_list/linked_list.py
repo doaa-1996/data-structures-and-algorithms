@@ -145,10 +145,10 @@ if __name__ == "__main__":
 # linklist.insert(0)
 
 
-linklist.append(1)
-linklist.append(2)
-linklist.append(3)
-linklist.append(4)
-linklist.append(5)
-linklist.kthFromEnd(1)
-linklist.display()
+# linklist.append(1)
+# linklist.append(2)
+# linklist.append(3)
+# linklist.append(4)
+# linklist.append(5)
+# linklist.kthFromEnd(1)
+# linklist.display()
