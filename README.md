@@ -11,4 +11,3 @@
 | code challenge 6 | [Linked lists 2](Data_Structures/README.md)                   |
 
 
-/home/std1/code401/data-structures-and-algorithms/Data_Structures/README.md
