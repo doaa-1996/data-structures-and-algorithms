@@ -14,4 +14,3 @@ Define a method called toString (or __str__ in Python) which takes in no argumen
  Using many methods ,insert, append, include and str, the insert method is for when the user wants to insert a value at the beginning of the Linked list, the append is for if the user wants to insert a value at the end of the Linked list, the str prints a string containing all the elements inside the linked list in an organized matter, and the include checks if the value is in the linked list or not
 append,include,str O(n)
 insert O(1)
-
