@@ -13,6 +13,8 @@ def printList(msg, head):
         ptr = ptr.next
  
     print("None")
+
+        
  
  
 def zipLists(a, b):
@@ -42,18 +44,17 @@ def zipLists(a, b):
  
  
 if __name__ == '__main__':
- 
     a = b = None
     for i in reversed(range(7, 12, 2)):
         a = Node(i, a)
- 
+
     for i in reversed(range(2, 7, 2)):
         b = Node(i, b)
- 
+
     printList("First List: ", a)
     printList("Second List: ", b)
- 
+
     head = zipLists (a, b)
     printList("After merging: ", head)
- 
+
 
