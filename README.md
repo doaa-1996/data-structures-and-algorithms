@@ -11,5 +11,6 @@
 | code challenge 6 | [Linked lists 2](Data_Structures/README.md)                   |
 | code challenge 7 | [Linked lists 3](Data_Structures/readme.md)                   |
 | code challenge 8 | [Linked lists 4](challenges/challenges/ll_zip/README.md)      |
+| code challenge 10| [Stacks and Queues](stacks_and_queues/README.md)              |
 
 
