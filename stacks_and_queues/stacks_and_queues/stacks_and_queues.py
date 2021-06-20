@@ -13,7 +13,7 @@ class Stack:
         self.top = None
         self.bottom = None
         self.length = 0
-    
+
     def isEmpty(self):
         return self.top == None
 
@@ -27,7 +27,7 @@ class Stack:
         if self.length <= 0:
             print('nothing to pop')
             return
-        
+
         temp = self.top
         self.top = self.top.next
         popped = temp.value
@@ -65,6 +65,7 @@ class Queue:
         self.rear = new_node
 
     def dequeue(self):
+
         self.length -= 1
 
         if self.isEmpty():
@@ -83,35 +84,4 @@ class Queue:
     def peek(self):
         return self.front.value
 
-class PseudoQueue:
-  def __init__(self):
-    self.main_stack = Stack()
-    self.helper_stack = Stack()
-  
-  def enqueue(self, value):
 
-    while self.main_stack.length != 0:
-      current = self.main_stack.pop()
-      self.helper_stack.push(current)
-    
-    self.helper_stack.push(value)
-
-    while self.helper_stack.length != 0:
-      current = self.helper_stack.pop()
-      self.main_stack.push(current)
-    
-  
-  def dequeue(self): 
-    if self.main_stack.top: 
-      return self.main_stack.pop()
-    
-    return None
-
-q = PseudoQueue()
-q.enqueue(1)
-q.enqueue(2)
-q.enqueue(3)
-
-print(q.dequeue())
-print(q.dequeue())
-print(q.dequeue())
