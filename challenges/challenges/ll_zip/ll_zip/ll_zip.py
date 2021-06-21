@@ -3,19 +3,36 @@ class Node:
         self.data = data
         self.next = next
  
- 
+  
+  
 def printList(msg, head):
     print(msg, end='')
- 
+
     ptr = head
     while ptr:
         print(ptr.data, end=" —> ")
         ptr = ptr.next
- 
+
     print("None")
 
         
- 
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def append(self, value):
+        node = Node(value)
+        if not self.head:
+            self.head = node
+        else:
+            current = self.head
+            while current.next is not None:
+                current = current.next
+            current.next = node
+    
+  
+
  
 def zipLists(a, b):
  
@@ -44,6 +61,7 @@ def zipLists(a, b):
  
  
 if __name__ == '__main__':
+    linklist = LinkedList()
     a = b = None
     for i in reversed(range(7, 12, 2)):
         a = Node(i, a)
@@ -56,5 +74,4 @@ if __name__ == '__main__':
 
     head = zipLists (a, b)
     printList("After merging: ", head)
-
 
