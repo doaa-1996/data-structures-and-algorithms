@@ -1,7 +1,9 @@
 # Challenge Summary
 
 Implement a Queue using two Stacks.
+
 The goal is to write a Queue class that has the functions of both enqueue and dequeue while only relying on stacks. The stack class has the methods push pop and peek to help you.
+
 
 ## Whiteboard Process
 
