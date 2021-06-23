@@ -18,7 +18,6 @@ def printList(msg, head):
 
 
 def zipLists(a, b):
-
     dummy = Node()
     tail = dummy
 
