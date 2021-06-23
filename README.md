@@ -1,6 +1,4 @@
-# Data-structures-and-algorithms1
-
-
+# Data-structures-and-algorithms
 
 |  Content         |        Topics                                                              |
 |------------------|----------------------------------------------------------------------------|
@@ -12,7 +10,7 @@
 | code challenge 7 |[Linked lists 3](Data_Structures/readme.md)                                 |
 | code challenge 8 |[Linked lists 4](challenges/challenges/ll_zip/README.md)                    |
 | code challenge 10|[Stacks and Queues](Data_Structures/stacks_and_queues/README.md)            |
-| code challenge 11|[Queue with stacks ](challenges/queue_with_stacks/README.md)                |
+| code challenge 11|[Queue with stacks](challenges/queue_with_stacks/README.md)                 |
 | code challenge 12|[Fifo-animal-shelter](challenges/fifo_animal_shelter/README.md)             |
 | code challenge 13|[Multi-bracket Validation](challenges/multi_bracket_validation/README.md)   |
   
