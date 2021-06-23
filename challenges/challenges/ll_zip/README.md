@@ -8,7 +8,7 @@
 ## Approach & Efficiency
 The strategy here uses a temporary dummy node as the start of the result list. The pointer tail always points to the last node in the result list. The dummy node gives tail something to point to initially when the result list is empty. . The loop proceeds, removing one node from either a or b and adding it to tail. When we are done, the result is in dummy.next.
 
-efficiency O(n)
+Efficiency O(n)
 
 ## Solution
 ```
