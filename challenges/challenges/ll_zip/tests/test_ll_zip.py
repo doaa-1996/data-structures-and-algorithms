@@ -4,66 +4,48 @@ from ll_zip import __version__
 def test_version():
     assert __version__ == '0.1.0'
 
-# from ll_zip.ll_zip import  zipLists
-# from ll_zip.ll_zip import Node,LinkedList
-
-
-# def test_one():
-#     ll1 = LinkedList()
-#     ll1.append(7)
-#     ll1.append(9)
-#     ll2 = LinkedList()
-#     ll2.append(1)
-
-#     actual = str(zipLists(ll1,ll2))
-#     expected = f'{{7}}->{{1}}->{{9}}->None'
-#     assert actual==expected
+from ll_zip.ll_zip import Node,zipLists,printList
 
 
 
-# def test_tow():
-#     ll1 = LinkedList()
-#     ll2 = LinkedList()
-#     ll2.append(9)
-#     ll2.append(7)
+def test_llzip1():
+    a = b = None
+    for i in reversed(range(7, 12, 2)):
+        a = Node(i, a)
 
-#     actual = str(zipLists(ll1,ll2))
-#     expected =f'{{9}}->{{7}}->None'
-#     assert actual==expected
+    for i in reversed(range(2, 7, 2)):
+        b = Node(i, b) 
 
-
-
-# def test_three():
-#     ll1 = LinkedList()
-#     ll1.append(7)
-#     ll2 = LinkedList()
-#     ll2.append(9)
-#     ll2.append(1)
-
-#     actual = str(zipLists(ll1,ll2))
-#     expected = f'{{7}}->{{9}}->{{1}}->None'
-#     assert actual==expected
+    zippedlist = zipLists (a, b)    
+    assert printList("",zippedlist)=='7 —> 2 —> 9 —> 4 —> 11 —> 6 —> None'
 
 
-# def test_four():
-#     ll1 = LinkedList()
-#     ll1.append(9)
-#     ll1.append(7)
-#     ll2 = LinkedList()
-    
-
-#     actual = str(zipLists(ll1,ll2))
-#     expected =f'{{9}}->{{7}}->None'
-#     assert actual==expected
 
 
-# def test_five():
-#     ll1 = LinkedList()
 
 
-#     ll2 = LinkedList()
-#     ll2.append(9)
+def test_llzip2():
+    a = b = None
+    for i in reversed(range(1, 6, 2)):
+        a = Node(i, a)
 
-#     actual = str(zipLists(ll1,ll2))
-#     expected =f'{{9}}->None'
-#     assert actual==expected
+    for i in reversed(range(2, 7, 2)):
+        b = Node(i, b) 
+
+    zippedlist = zipLists (a, b)    
+    assert printList("",zippedlist)=='1 —> 2 —> 3 —> 4 —> 5 —> 6 —> None'
+
+
+
+
+
+def test_llzip3():
+    a = b = None
+    for i in reversed(range(1, 3, 1)):
+        a = Node(i, a)
+
+    for i in reversed(range(2, 5, 1)):
+        b = Node(i, b) 
+
+    zippedlist = zipLists (a, b)    
+    assert printList("",zippedlist)=='1 —> 2 —> 2 —> 3 —> 4 —> None'
