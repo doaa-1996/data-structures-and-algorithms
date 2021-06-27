@@ -20,6 +20,13 @@ Create a Node class that has properties for the value stored in the node, the le
     * in order
     * post order which returns an array of the values, ordered     appropriately.
 
+  * find maximum value
+
+
+    * Arguments: none
+    * Returns: number
+
+
 
 **Binary Search Tree**
 
@@ -71,6 +78,7 @@ we have 3 classes :
 * pre_order method
 * in_order
 * post_order
+* findMax method
 
 
 3. Binary Search Tree has 2 methods :
@@ -78,3 +86,10 @@ we have 3 classes :
 
    * Add
    * Contains
+
+
+
+
+## Whiteboard 
+
+![cc16](code%20challenge16.png)
