@@ -90,6 +90,6 @@ we have 3 classes :
 
 
 
-## White board 
+## Whiteboard 
 
 ![cc16](code%20challenge16.png)
