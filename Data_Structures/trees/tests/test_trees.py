@@ -37,3 +37,32 @@ def test_pre_order():
     expected = [10,5,15]
     actual = tree.pre_order()
     assert expected == actual
+
+
+
+
+
+def test_find_max():
+  tree = BinarySearchTree()
+  tree.root = Node(5)
+  tree.root.left = Node(19)
+  tree.root.right = Node(7)
+  tree.root.left.left = Node(23)
+  tree.root.left.right = Node(8)
+
+  assert tree.find_max_val(tree.root) == 23
+
+def test_find_max_root_is_max():
+  tree = BinarySearchTree()
+  tree.root = Node(23)
+  tree.root.left = Node(19)
+  tree.root.right = Node(7)
+  tree.root.left.left = Node(5)
+  tree.root.left.right = Node(8)
+
+  assert tree.find_max_val(tree.root) == 23
+
+
+def test_find_max_root_no_root():
+  tree = BinarySearchTree()
+  assert tree.find_max_val(tree.root) == None    
