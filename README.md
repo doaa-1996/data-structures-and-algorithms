@@ -15,4 +15,4 @@
 | code challenge 13|[Multi-bracket Validation](challenges/multi_bracket_validation/README.md)   |
 | code challenge 15|[Trees](Data_Structures/trees/README.md)                                    |
 | code challenge 17|[Tree breadth first](challenges/tree-breadth-first/README.md)               |
-| code challenge 18|[Tree fizz buzz](challenges/tree-fizz-buzz/README.md)                       |
+| code challenge 18|[Tree fizz buzz](challenges/tree_fizz_buzz/README.md)                       |
