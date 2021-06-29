@@ -1,6 +1,6 @@
 ## Challenge
 
-Fizz Buzz Tree
+FizzBuzz Tree
 
 Write a function called fizz buzz tree
 
@@ -38,7 +38,6 @@ else return the same value as str
 
 time complexity: O(n)
 space complexity: O(n)
-
 
 
 ## Solution
