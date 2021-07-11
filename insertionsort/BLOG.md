@@ -26,7 +26,7 @@ def InsertionSort(arr):
         arr[j + 1] = temp
     return arr    
 
-**lets take an example**
+**Lets take an example**
 
 We have this non-sorted array [5, 2, 32, 4, 17]
 
