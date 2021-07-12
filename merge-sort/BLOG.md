@@ -77,7 +77,7 @@ Merge L [2, 4, 5, 32] and R [1, 12, 17, 18] to get
 [1, 2, 4, 5, 12, 17, 18, 32]
 
 
-Big(O)
+# Big(O)
 
 Time: O(nlogn)
 
