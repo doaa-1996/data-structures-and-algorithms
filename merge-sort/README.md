@@ -12,8 +12,8 @@ Implementing merge sort algorithm
 
 dividing the input array into two halves, calling itself for the two halves, and then merges the two sorted halves.
 
-Time: O(n^2)
-Space: O(1)
+Time: O(nlogn)
+Space: O(n)
 
 ## Solution
 

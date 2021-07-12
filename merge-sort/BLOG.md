@@ -79,6 +79,6 @@ Merge L [2, 4, 5, 32] and R [1, 12, 17, 18] to get
 
 Big(O)
 
-Time: O(n^2)
+Time: O(nlogn)
 
-Space: O(1)
+Space: O(n)
