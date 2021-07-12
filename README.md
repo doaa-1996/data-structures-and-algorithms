@@ -17,3 +17,4 @@
 | code challenge 17|[Tree breadth first](challenges/tree-breadth-first/README.md)               |
 | code challenge 18|[Tree fizz buzz](challenges/tree_fizz_buzz/README.md)                       |
 | code challenge 26|[Insertion sort](insertionsort/README.md)                                   |
+| code challenge 27|[Merge sort](merge-sort/README.md)                                          |
