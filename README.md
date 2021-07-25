@@ -20,3 +20,4 @@
 | code challenge 27 | [Merge sort](merge-sort/README.md)                                        |
 | code challenge 28 | [Quick sort](quick_sort/README.md)                                        |
 | code challenge 30 | [Hashtable](hashtable/README.md)                                          |
+| code challenge 31 | [Hashmap repeated word](hashmap-repeated-word/README.md)                  |
