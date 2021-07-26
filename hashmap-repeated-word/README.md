@@ -2,8 +2,6 @@
 
 ## First repeated word
 
-
-
 ## Whiteboard Process
 
 ![cc31](code%20challenge31.png)
@@ -15,7 +13,6 @@ We split all the words by spaces and store them in a list.
 Use Counter function to count repetition of words
 Traverse the list and check if any word has repetition greater than 1
 If it is present then print the word and break the loop
-
 
 **efficiency** 
 

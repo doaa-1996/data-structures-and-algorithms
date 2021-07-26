@@ -48,15 +48,12 @@ class LinkedList:
             return out
 
     def insertBefore(self, targetValue, value):
-        # create new node
         newNode = Node(value)
-        # find target node to append
         node = self.head
         if node == None:
             print('There aren\'t any nodes to append before!')
         else:
             found = False
-            # search nodes
             while node:
                 if node.next == None:
                     break
@@ -73,24 +70,14 @@ class LinkedList:
 
     def insert(self, new_data):
 
-        # 1 & 2: Allocate the Node &
-        #        Put in the data
         new_node = Node(new_data)
-
-    # 3. Make next of new Node as head
         new_node.next = self.head
-
-    # 4. Move the head to point to new Node
         self.head = new_node
 
     def display(self):
-        # variable for iteration
         x = self.head
-        # iterating until we reach the end of the linked list
         while x != None:
-            # printing the node data
             print(x.value, end='->')
-            # moving to the next node
             x = x.next
         print('Null')
 
