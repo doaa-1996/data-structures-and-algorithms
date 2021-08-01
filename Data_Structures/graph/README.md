@@ -2,7 +2,7 @@
 
 
 
-##[WhiteBoard](https://docs.google.com/document/d/17Mul494CdAar41jtY-nMl_uUw5lEnc8ByKzfN-qh7xo/edit?usp=sharing)
+## [WhiteBoard](https://docs.google.com/document/d/17Mul494CdAar41jtY-nMl_uUw5lEnc8ByKzfN-qh7xo/edit?usp=sharing)
 
 
 ## Solution
